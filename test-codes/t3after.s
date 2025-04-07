@@ -15,6 +15,6 @@
 main:                                   # @main
 # %bb.0:
 	movl	$5, %ecx
-	jmp	superadd5                       
+	jmp	superadd5                       # TAILCALL
                                         # -- End function
 	.addrsig
