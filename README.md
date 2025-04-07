@@ -16,10 +16,17 @@ For a Compiler Design assignment, the goal was to:
 
 ## 📂 Project Structure
 llvm-project-shrey/
-├── llvm/                     # LLVM Core Source (modified)
+
+├── llvm/ # LLVM Core Source (modified)
+
 │   └── lib/Target/X86/      # X86 Backend with custom instruction logic
+
 │       └── X86InstrInfo.td  # Contains SUPERADD5 instruction definition
+
 ├── clang/                    # (Optional) Clang Frontend for `i+++` support
+
 ├── llvm-build/               # CMake build output directory
+
 ├── t3after.ll                # LLVM IR file with `add i, 5`
+
 └── superadd5.s               # Output Assembly with custom instruction
