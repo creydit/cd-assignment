@@ -232,11 +232,10 @@ SDValue X86TargetLowering::LowerMYINS(SDValue Op, SelectionDAG &DAG) const {
 
 ```python
 #This Command is specific for my directory, change it accordingly for directory location.
-cd /D C:\Users\shrey\CDA\llvm-build
 bin\llvm-tblgen.exe -gen-instr-info ^
 -I C:\Users\shrey\CDA\llvm-project\llvm\include ^
 -I C:\Users\shrey\CDA\llvm-project\llvm\lib\Target\X86 ^
-C:\Users\shrey\CDA\llvm-project\llvm\lib\Target\X86\[X86.td](http://x86.td/) ^
+C:\Users\shrey\CDA\llvm-project\llvm\lib\Target\X86\X86.td ^
 -o all_instructions.txt
 ```
 
