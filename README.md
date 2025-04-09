@@ -241,3 +241,7 @@ C:\Users\shrey\CDA\llvm-project\llvm\lib\Target\X86\[X86.td](http://x86.td/) ^
 ```
 
 This will generate a all_instruction.txt file which contains every instruction present in LLVM for X86 ISA whether it’s a built in or custom added like “MYINS”.
+
+##Author
+Name - Shreyansh Shrivastava
+Roll No. - 23115089
